@@ -5,8 +5,8 @@ const execute = async () => {
     try {
         const result = await fragmenter.pack({
             packOptions: { splitFileSize: 102_760_448, keepCompleteModulesAfterSplit: false },
-            baseDir: './hs-789-liveries/out/horizonsim-aircraft-787-9-livery-package',
-            outDir: './hs-789-liveries/out/build-modules',
+            baseDir: './hs-78X-liveries/out/horizonsim-aircraft-787-10-livery-package',
+            outDir: './hs-78X-liveries/out/build-modules',
             modules: [{
                 name: 'American_Airlines',
                 sourceDir: './SimObjects/Airplanes/HorizonSim_B787_9_AAL'
@@ -130,7 +130,7 @@ const execute = async () => {
             }]
         });
         console.log(result);
-        console.log(fs.readFileSync('./hs-789-liveries/out/build-modules/modules.json').toString());
+        console.log(fs.readFileSync('./hs-78X-liveries/out/build-modules/modules.json').toString());
     } catch (e) {
         console.error(e);
         process.exit(1);

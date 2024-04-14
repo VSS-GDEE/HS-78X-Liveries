@@ -17,14 +17,14 @@ for arg in "$@"; do
   # If the argument is "-clean", perform some action
   if [ "$arg" = "-clean" ]; then
     echo "Removing out directories..."
-    rm -rf /external/hs-789-liveries/out
+    rm -rf /external/hs-78X-liveries/out
   else
     # Otherwise, add the arg it to the new array
     args+=("$arg")
   fi
 done
 
-time npx igniter -r 'hs789-livery-package' "$@"
+time npx igniter -r 'hs78X-livery-package' "$@"
 
 # restore ownership (when run as github action)
 if [ "${GITHUB_ACTIONS}" == "true" ]; then

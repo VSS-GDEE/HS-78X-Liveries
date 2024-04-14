@@ -1,15 +1,15 @@
 {
-  "name": "hs789-livery-package",
+  "name": "hs78X-livery-package",
   "version": "1.0.0",
   "edition": "development",
   "imports": {
     "#build-utils": "./build-utils.js"
   },
   "scripts": {
-    "====== HS789 LIVERY PACKAGE ====": "==========================================",
-    "build-hs789-livery-package:copy-base-package": "mkdir -p /hs-789-liveries/out/horizonsim-aircraft-787-9-livery-package && (rsync -a hs-789-liveries/src/base/horizonsim-aircraft-787-9-livery-package hs-789-liveries/out || cp -a -u hs-789-liveries/src/base/horizonsim-aircraft-787-9-livery-package hs-789-liveries/out)",
-    "build-hs789-livery-package:copy-base-files": "npm run build-hs789-livery-package:copy-base-package",
-    "build-hs789-livery-package:manifest": "node scripts/build-hs789-liveries.js",
+    "====== HS78X LIVERY PACKAGE ====": "==========================================",
+    "build-hs78X-livery-package:copy-base-package": "mkdir -p /hs-78X-liveries/out/horizonsim-aircraft-787-10-livery-package && (rsync -a hs-78X-liveries/src/base/horizonsim-aircraft-787-10-livery-package hs-78X-liveries/out || cp -a -u hs-78X-liveries/src/base/horizonsim-aircraft-787-10-livery-package hs-78X-liveries/out)",
+    "build-hs78X-livery-package:copy-base-files": "npm run build-hs78X-livery-package:copy-base-package",
+    "build-hs78X-livery-package:manifest": "node scripts/build-hs78X-liveries.js",
     "====== COMMON ================": "==========================================",
     "lint": "eslint --cache **/*.{js,mjs,jsx,ts,tsx}",
     "lint-fix": "npm run lint -- --fix",

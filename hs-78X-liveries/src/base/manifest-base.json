@@ -6,11 +6,11 @@
         "OlderHistory": ""
       }
     },
-    "title": "787-9 Livery Package",
+    "title": "787-10 Livery Package",
     "dependencies": [
       {
         "package_version": "1.0.0",
-        "name": "horizonsim-aircraft-787-9"
+        "name": "horizonsim-aircraft-787-10"
       }
     ],
     "content_type": "Livery",

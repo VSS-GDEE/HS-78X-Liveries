@@ -47,8 +47,8 @@ const titleSuffix = ` (${titlePostfix})`;
 
 const MS_FILETIME_EPOCH = 116444736000000000n;
 
-const LIVERY_SRC = path.resolve(__dirname, '..', 'hs-789-liveries/src');
-const LIVERY_OUT = path.resolve(__dirname, '..', 'hs-789-liveries/out');
+const LIVERY_SRC = path.resolve(__dirname, '..', 'hs-78X-liveries/src');
+const LIVERY_OUT = path.resolve(__dirname, '..', 'hs-78X-liveries/out');
 
 function createPackageFiles(baseDir, manifestBaseFilename) {
     const contentEntries = [];
@@ -78,4 +78,4 @@ function createPackageFiles(baseDir, manifestBaseFilename) {
     }, null, 2));
 }
 
-createPackageFiles(path.resolve(LIVERY_OUT, 'horizonsim-aircraft-787-9-livery-package'), 'manifest-base.json');
+createPackageFiles(path.resolve(LIVERY_OUT, 'horizonsim-aircraft-787-10-livery-package'), 'manifest-base.json');
